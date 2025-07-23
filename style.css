@@ -23,6 +23,12 @@ body{
 .orange{
     color:#E95A08;
 }
+.border-r1{
+    border-radius: 14px;
+}
+.border-r2{
+    border-radius: 22px;
+}
 /* nav bar style */
 nav{
     max-width: 1140px;
@@ -62,7 +68,7 @@ nav{
     margin-top:-35px;
 }
 /* plant section style */
-.our-plants{
+.our-plants ,.latest-text{
      max-width: 1140px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -71,11 +77,11 @@ nav{
     text-align: center;
     
 }
-.op-tile{
+.op-tile,.latest-title{
     font-size: 3rem;
    
 }
-.op-subtitle{
+.op-subtitle ,.latest-subtitle{
     margin-top: -20px;
 }
  
@@ -123,6 +129,53 @@ margin-bottom: 210px;
     font-size: 3rem;
     font-weight: bold;
 }
+
+/* latest section image style */
+
+.main-image-box{
+    margin-top: 120px;
+    display: grid;
+    grid-template-areas: "left middle right "
+                        "left1 middle right ";
+gap: 25px;
+
+}
+.img-box1{
+    grid-area: left;
+   
+}
+.img-box2{
+    grid-area: left1;
+    
+}
+.img-box3{
+    grid-area:middle ;
+    border-radius: 22px;
+}
+.img-box4{
+    grid-area:middle ;
+}
+.img-box5{
+    grid-area:middle ;
+}
+.img-box6{
+    grid-area:middle ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive for mobile */
 @media screen and (max-width:576px){
      nav{
@@ -147,6 +200,22 @@ grid-template-columns: repeat(2,1fr);
     }
     .plant-lover{
         flex-direction: column;
+    }
+    .main-image-box{
+        display: flex;
+        flex-direction: column;
+        /* border:2px solid blue; */
+        margin-left: 20%;
+    }
+    .img-box1,.img-box2,.img-box3 img{
+     width: 360px;
+     height: auto;
+    align-items: center;
+
+    }
+    .img-box3{
+        width: 40px;
+        height: 50px;
     }
 }
     

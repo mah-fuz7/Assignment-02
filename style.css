@@ -61,7 +61,23 @@ nav{
     font-size: 22px;
     margin-top:-35px;
 }
-
+/* plant section style */
+.our-plants{
+     max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    border: 2px solid purple;
+    text-align: center;
+    
+}
+.op-tile{
+    font-size: 3rem;
+   
+}
+.op-subtitle{
+    margin-top: -20px;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px) {
     nav{

@@ -108,6 +108,21 @@ margin-bottom: 210px;
     font-weight: 700;
     border:none;
 } 
+/* plant-lover style */
+.plant-lover{
+   max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 135px;
+   
+}
+.pl-text{
+    margin-left:60px ;
+    /* border: 2px solid tomato; */
+}
+.pl-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px){
      nav{
@@ -129,6 +144,9 @@ margin-bottom: 210px;
     .plant-section{
           display: grid;
 grid-template-columns: repeat(2,1fr); 
+    }
+    .plant-lover{
+        flex-direction: column;
     }
 }
     

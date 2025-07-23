@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(245, 248, 255, 1);
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+#dark-1{
+    color: #8987A1;
+}
+/* nav bar style */
+nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-between;
+     align-items: center;
+    
+}
+.nav-list a{
+    text-decoration: none;
+    color:#252432 ;
+    margin:48px;
+
+
+}
+.home-button{
+    font-weight: 700;
+}
+/* responsive for mobile */
+@media screen and (max-width:576px) {
+    nav{
+        align-items: center;
+    }
+    .home-button, .shop-button,.about-button{
+        display: none;
+    }
+    .cart-button{
+    font-size:30px;
+    padding-top: 32px;
+    
+    }
+}

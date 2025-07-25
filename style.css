@@ -136,6 +136,23 @@ margin-bottom: 210px;
     font-size: 3rem;
     font-weight: bold;
 }
+.batch-box{
+    border-radius: 50%;
+     background-size: cover
+  
+}
+.batch{
+    height:286px;
+    width:286px;
+    position: relative;
+    top: -723px;
+    left: 351px;
+   
+     
+}
+.batch:hover{
+     animation: spin 2s linear infinite;
+}
 
 /* latest section image style */
 
@@ -432,6 +449,9 @@ grid-template-columns: repeat(2,1fr);
     .box3{
         padding-left: 0px;
         margin-left: -295px;
+    }
+    .batch{
+        display:none;
     }
 }
     
